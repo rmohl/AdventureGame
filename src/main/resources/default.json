@@ -1,0 +1,152 @@
+  {
+    "adventure": {
+      "room": [
+        {
+          "id": 100,
+          "start": "true",
+          "name": "the bedroom",
+          "short_description": "This is the pink bedroom.",
+          "long_description": "You are standing in what looks to be a bedroom. Every piece of \nfurniture in this room is bright pink except for a white door on \nthe northern wall. The bed looks comfy - its sheets have a pretty \nfloral pattern on them.",
+          "entrance": [
+            {
+              "id": 101,
+              "dir": "N"
+            }
+          ]
+        },
+        {
+          "id": 101,
+          "name": "the living room",
+          "short_description": "This is the cozy living room.",
+          "long_description": "This room is warm and dimly lit, making it very cozy. This is \nlikely the living room of the house - it has a big comfy couch, a nice \nred carpet, and a brick fireplace.",
+          "entrance": [
+            {
+              "id": 100,
+              "dir": "S"
+            },
+            {
+              "id": 102,
+              "dir": "E"
+            },
+            {
+                "id": 103,
+                "dir": "W"
+            },
+            {
+                "id": 104,
+                "dir": "N"
+            },
+            {
+              "id": 106,
+              "dir": "up"
+            }
+          ]
+        },
+        {
+          "id": 102,
+          "name": "the kitchen",
+          "short_description": "This is the bright modern kitchen.",
+          "long_description": "Upon entering the room you notice right away that it's the kitchen. \nIt has a large counter with a shiny granite surface and steel bar \nstools. The fridge has a cute flower drawing pinned to it by a \nstar-shaped magnet.",
+          "entrance": [
+            {
+              "id": 101,
+              "dir": "W"
+            }
+          ],
+          "loot": [
+            {
+              "id": 2
+            },
+            {
+              "id": 3
+            }
+          ]
+        },
+        {
+            "id": 103,
+            "name": "the bathroom",
+            "short_description": "This is the disco-themed bathroom.",
+            "long_description": "The first thing you notice about this room is that music is being \nloudly blasted from a stereo on the floor. You are clearly in a \nbathroom, but not a normal one. The sink is covered in a goopy, \nglowing yellow substance, the bath looks like its made out of \ncardboard, and the toilet is completely covered in blue glitter. \nThere are coloured strobe lights going off and a huge disco ball hangs \nfrom the ceiling.",
+            "entrance": [
+              {
+                "id": 101,
+                "dir": "E"
+              }
+            ]
+        },
+        {
+            "id": 104,
+            "name": "outside",
+            "short_description": "You are outside.",
+            "long_description": "It's very suddenly bright and sunny - you are outside! There is a \nbeautiful flower garden to your left with an overgrown stone path \nleading into it. There is a net on the ground near the stone path.",
+            "entrance": [
+              {
+                "id": 101,
+                "dir": "S"
+              },
+              {
+                "id": 105,
+                "dir": "W"
+              }
+            ],
+            "loot": [
+              {
+                "id": 1
+              }
+            ]
+        },
+        {
+          "id": 105,
+          "name": "the garden",
+          "short_description": "You are in the peaceful garden.",
+          "long_description": "You look around and see a wide variety of colourful flowers. This is a garden! \nThe stone path you followed here ends up leading to a rather large stone \nwaterfountain. The trees surrounding the area provide a nice cool shade. \nIt's so peaceful here... you begin to feel slightly sleepy.",
+          "entrance": [
+            {
+              "id": 104,
+              "dir": "E"
+            }
+          ],
+          "loot": [
+            {
+              "id": 4
+            }
+          ]
+        },
+        {
+          "id": 106,
+          "name": "the attic",
+          "short_description": "You are in the empty attic.",
+          "long_description": "You walk up the stairs to find yourself in a big empty room. The floor is wooden \nand the walls are made of concrete. There is no furniture in sight. \nThe most interesting thing about the room is the big crack on the southern wall. \nThere is clearly nothing here. The stairs that lead back downstairs look very appealing...",
+          "entrance": [
+            {
+              "id": 101,
+              "dir": "down"
+            }
+          ]
+        }
+      ],
+      "item": [
+        {
+          "id": 1,
+          "name": "net",
+          "desc": "A medium-sized, delicate-looking net with a butterfly symbol on its handle."
+        },
+        {
+          "id": 2,
+          "name": "drawing",
+          "desc": "The flower has been drawn using pink, green, and yellow crayons; it's very pretty."
+        },
+        {
+          "id": 3,
+          "name": "test tube",
+          "desc": "An empty glass test tube - upon closer inpection you notice that there are some \nshiny blue flecks inside it. You wonder what had been in it before."
+        },
+        {
+          "id": 4,
+          "name": "butterfly",
+          "desc": "This butterfly is beautiful - it has big orange wings that have an intricate \npattern on them. The pattern consists of many thin black lines and white spots."
+        }
+      ]
+    }
+  }
+
