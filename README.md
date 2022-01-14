@@ -44,4 +44,4 @@ Ensure that you are still in the AdventureGame folder when typing this command O
 
 ## Notes
 
-There is a text-based version of the game and a basic GUI version. Follow the instructions that explain how to run the specific version of the game that you would like to play (located under the 'Execution' header). It is recommended you use the JAR file that has dependencies when executing this program (2430_A2-1.0-jar-with-dependencies.jar). '['/']' backets in terminal commands indicate optional parameters.
+There is a text-based version of the game and a basic GUI version. Follow the instructions that explain how to run the specific version of the game that you would like to play (located under the 'Execution' header). It is recommended you use the JAR file that has dependencies when executing this program (2430_A2-1.0-jar-with-dependencies.jar). '[]' backets in terminal commands indicate optional parameters.
